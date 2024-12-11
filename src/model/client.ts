@@ -1,4 +1,4 @@
-import {Schema,Document} from 'mongoose'
+import {Schema,} from 'mongoose'
 const notificationSc = new Schema({
     from:{
         type:Schema.ObjectId,
